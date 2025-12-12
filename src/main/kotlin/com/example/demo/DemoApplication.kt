@@ -9,7 +9,7 @@ class DemoApplication {
 
     @Command(name = ["hello"], description = "say hello")
     fun hello() {
-        println("hello, world")
+        println("hello, world!!!")
     }
 
 }

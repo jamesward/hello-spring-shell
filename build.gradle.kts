@@ -11,7 +11,7 @@ kotlin {
 
 dependencies {
     implementation("org.springframework.shell:spring-shell-starter-jansi:4.0.0-M2")
-//    developmentOnly("org.springframework.boot:spring-boot-devtools")
+    developmentOnly("org.springframework.boot:spring-boot-devtools")
 }
 
 tasks.withType<org.springframework.boot.gradle.tasks.run.BootRun> {
